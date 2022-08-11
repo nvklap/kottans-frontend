@@ -12,7 +12,9 @@
 `git commit -a -m "comment"` буду використовувати у майбутньому для якихось маленьких правок.
 
 <details><summary>Week 1&2</summary>
+
  ![coursera week 1](./task_git_collaboration/git-coursera-w1.PNG)  
+ 
  ![coursera week 2](./task_git_collaboration/git-coursera-w2.PNG)  
 </details>
 
@@ -20,8 +22,11 @@
 Цікаві та складні завдання. Деяка інформація зовсім заплутала, деяка навпаки домогла. Наприклад, стало легше розрізняти між собою `rebase` та `cherry-pick`. А поєднання `git fetch` та `git merge` в одній команді `git pull` здається зручним.
 
 <details><summary>Screenshots</summary>
+
 ![learngitbranching level Introduction Sequence](./task_git_collaboration/git_01.PNG)  
+
 ![learngitbranching level Push & Pull -- віддалені репозиторії в Git!](./task_git_collaboration/git_02.PNG)  
+
 </details>
 
 ## 1. Linux CLI, and HTTP
@@ -33,8 +38,11 @@
 
 <details><summary>Screenshots</summary>
 ![linux quiz 1](./task_linux_cli/linux_01.PNG)  
+
 ![linux quiz 2](./task_linux_cli/linux_02.PNG)  
+
 ![linux quiz 3](./task_linux_cli/linux_03.PNG)  
+
 ![linux quiz 4](./task_linux_cli/linux_04.PNG)  
 </details>
 
