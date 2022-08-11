@@ -37,6 +37,7 @@
 Здвивували: команда для переміщення `mv` файлів може використовуватись також для перейменування; оператор `|`, що передає одержані дані з однієї команди - в іншу.
 
 <details><summary>Screenshots</summary>
+ 
 ![linux quiz 1](./task_linux_cli/linux_01.PNG)  
 
 ![linux quiz 2](./task_linux_cli/linux_02.PNG)  
