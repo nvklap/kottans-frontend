@@ -27,6 +27,8 @@
 
 </details>
 
+0.3 pull-request до [Kottans/mock-repo](https://github.com/Kottans/mock-repo) is [successfully merged and closed](https://github.com/kottans/mock-repo/pull/999).
+
 ## 1. Linux CLI, and HTTP
 
 1.1 [Linux Survival (4 modules)](https://linuxsurvival.com/linux-tutorial-introduction/)  
