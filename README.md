@@ -58,6 +58,16 @@
 
  ![coursera week 3](./task_git_collaboration/git-coursera-w3.PNG)  
  
+ ![coursera week 4](./task_git_collaboration/git-coursera-w4.PNG)  
+ 
 </details>
 
-2.2 [learngitbranching.js.org](https://learngitbranching.js.org/) 
+2.2 [learngitbranching.js.org](https://learngitbranching.js.org/)  
+
+<details><summary>Screenshots</summary>
+
+![learngitbranching level Introduction Sequence](./task_git_collaboration/git_01.PNG)  
+
+![learngitbranching level Push & Pull -- віддалені репозиторії в Git!](./task_git_collaboration/git_02.PNG)  
+
+</details>
