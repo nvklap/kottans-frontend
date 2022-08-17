@@ -98,7 +98,7 @@
 
 <details><summary>Screenshot</summary>
 
-![HTML & CSS codecademy](./task_html_css_intro/codecadamy.png)
+![HTML & CSS codecademy](./task_html_css_intro/codecadamy.PNG)
 
 </details>
 
