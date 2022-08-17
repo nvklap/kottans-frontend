@@ -56,13 +56,30 @@
 
 2.1 [Introduction to Git and GitHub (week 3&4)](https://www.coursera.org/learn/introduction-git-github)
 
+Багато цікавого і нового: воркфлоу з pr, як оновлювати свій pr; `git rebase -i` інтерактивний rebase, який має багато функцій, одна із яких дозволяє `squash` декілька комітів в один; про особливість `rebase` - переписувати історію коммітів, роблячи її лінійною, і це не завжди рекомендовано робити на колабораційних проектах; можливість на гітхабі створювати своєрідний todo list для проекта, призначати, хто за що відповідає, і за допомоги коментаря у коміті `"Close #<number-of-the issue>"` відмічати відповідний пункт закритим.
+
 <details><summary>Week 3&4</summary>
 
 ![coursera week 3](./task_git_collaboration/git-coursera-w3.PNG)
 
+![coursera week 4](./task_git_collaboration/git-coursera-w4.PNG)
+
 </details>
 
 2.2 [learngitbranching.js.org](https://learngitbranching.js.org/)
+
+Заново пройшла ті рівні які здалися на 0 степі важкими і вони стали більш зрозумілими і легкими. Практиковалась з `rebase` і `cherry-pick`; зрозуміла що ж таке `origin` і як за допомоги команд можна пушити локальну гілку у іншу на ремоут якщо вони мають різні назви, наприклад: `git push origin foo:main`, де foo - це локальна гілка, а мейн - це віддалена.  
+Здивувало, що `fetch` та `pull` можуть видаляти та створювати гілки:  
+`git push origin :foo` - видалить на ремоуті гілку foo  
+`git fetch origin :foo` - створить локально гілку foo
+
+<details><summary>Screenshots</summary>
+
+![learngitbranching level Introduction Sequence](./task_git_collaboration/git_01.PNG)
+
+![learngitbranching level Push & Pull -- віддалені репозиторії в Git!](./task_git_collaboration/git_02.PNG)
+
+</details>
 
 ## Intro to HTML and CSS
 
