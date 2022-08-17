@@ -93,8 +93,8 @@
 
 </details>
 
-3.2 [Codecedemy - Learn HTML(Eng)](https://www.codecademy.com/learn/learn-html) &  
-3.3 [Codecedemy - Learn CSS(Eng)](https://www.codecademy.com/learn/learn-css)
+3.2 [Codecademy - Learn HTML(Eng)](https://www.codecademy.com/learn/learn-html) &  
+3.3 [Codecademy - Learn CSS(Eng)](https://www.codecademy.com/learn/learn-css)
 
 <details><summary>Screenshot</summary>
 
