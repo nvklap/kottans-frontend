@@ -110,6 +110,30 @@
 - зовнішні відступи у `float` елементів не колапсуються;
 - як додавати кастомні шрифти за допомогою [`@font-face`](https://css-tricks.com/snippets/css/using-font-face-in-css/).
 
-<!-- <details><summary>WIP</summary>
+<details><summary>WIP</summary>
 
-</details> -->
+## 4. Responsive Web Design
+
+4.1 [Responsive web design basics](https://web.dev/i18n/en/responsive-web-design-basics/)  
+4.2 [FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)  
+4.3 [Flexbox Froggy](http://flexboxfroggy.com/)  
+4.4 [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)  
+4.5 [Grid Garden](http://cssgridgarden.com/)
+
+## 5. HTML & CSS Practice
+
+[Вимоги](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md) | [nav section rules](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) | [checkbox video](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev)
+
+## 6. JavaScript Basics
+
+6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)  
+6.2
+
+- [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
+- [ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17
+- [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
+- [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting)
+- [Functional Programming ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
+- [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11
+
+</details>
