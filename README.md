@@ -102,10 +102,10 @@
 
 </details>
 
-Загалом це було повторення та систематизація того з чим вже була знайома. Дізналась про *content model* для HTML5, яка відносить більшість html елементів до певної [категорії](https://html.spec.whatwg.org/#content-models). Ще з цікавого та нового:
+Загалом це було повторення та систематизація того з чим вже була знайома. Дізналась про _content model_ для HTML5, яка відносить більшість html елементів до певної [категорії](https://html.spec.whatwg.org/#content-models). Ще з цікавого та нового:
 
 - `minlength` та `maxlength` атрібути для `<input>`;
-- `&nbsp` не тільки створює проміжок між словами, але й робить їх *nonbreakable*;
+- `&nbsp` не тільки створює проміжок між словами, але й робить їх _nonbreakable_;
 - `<a>` є одночасно рядковим та блоковим елементом: він може містити в собі блокові елементи, але за замовчуванням має поведінку рядкового елемента;
 - `margin` у `float` елементів не колапсуються;
 - як додавати кастомні шрифти за допомогою [`@font-face`](https://css-tricks.com/snippets/css/using-font-face-in-css/).
@@ -115,10 +115,16 @@
 ## 4. Responsive Web Design
 
 4.1 [Responsive web design basics](https://web.dev/i18n/en/responsive-web-design-basics/)  
-4.2 [FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)  
-4.3 [Flexbox Froggy](http://flexboxfroggy.com/)  
+4.2 ~~[FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)~~  
+4.3 ~~[Flexbox Froggy](http://flexboxfroggy.com/)~~  
 4.4 [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)  
 4.5 [Grid Garden](http://cssgridgarden.com/)
+
+<details><summary>Flexbox Froggy</summary>
+
+![Flexbox Froggy](./task_responsive_web_design/game_flex.PNG)
+
+</details>
 
 ## 5. HTML & CSS Practice
 
@@ -129,11 +135,18 @@
 6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)  
 6.2
 
-- [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
-- [ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17
+- ~~[Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)~~
+- ~~[ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17~~
 - [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
 - [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting)
 - [Functional Programming ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
 - [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11
+
+<details><summary>Freecodecamp JS</summary>
+
+![Basic JavaScript](./task_js_basics/freecodecamp_js_01.PNG)  
+![ES6 Challenges](./task_js_basics/freecodecamp_js_02.PNG)
+
+</details>
 
 </details>
