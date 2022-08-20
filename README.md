@@ -110,21 +110,30 @@
 - `margin` у `float` елементів не колапсуються;
 - як додавати кастомні шрифти за допомогою [`@font-face`](https://css-tricks.com/snippets/css/using-font-face-in-css/).
 
-<details><summary>WIP</summary>
-
 ## 4. Responsive Web Design
 
 4.1 [Responsive web design basics](https://web.dev/i18n/en/responsive-web-design-basics/)  
-4.2 ~~[FLEXBOX. Вчимося верстати на флексах](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x)~~  
-4.3 ~~[Flexbox Froggy](http://flexboxfroggy.com/)~~  
-4.4 [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)  
-4.5 [Grid Garden](http://cssgridgarden.com/)
+4.2 [Flexbox](https://www.youtube.com/playlist?list=PLM6XATa8CAG5mPV60dMmjMRrHVW4LmV2x) & 4.4 [CSS Grid Layout](https://www.youtube.com/watch?v=GV92IdMGFfA&list=PLM6XATa8CAG5pXQrW_kDaeZb_uIAMNZIm)  
+4.3 [Flexbox Froggy](http://flexboxfroggy.com/) & 4.5 [Grid Garden](http://cssgridgarden.com/)
 
-<details><summary>Flexbox Froggy</summary>
+Про флекс вже знала до цього, тому було переважно повторення, а у гріди занурилась вперше. Кількість властивостей та скорочень для них вражає так само, як і можливості які дають гріди. З цікавого:
+
+- з `grid-template-areas` можна 'візуально' впорядкувати грід-елементі, а `grid-auto-rows` та `grid-auto-columns` дають можливість задавити розміри неявних колонок та рядків.
+- ми можемо задавати назви для грід ліній `grid-template-columns: [first] 40px [line2] 50px [line3] auto [end]`;
+- брейкпоінти краще задавати в прив'язці до того, коли 'ламається' лейаут сторінки, а не до розмірів різних девайсів.
+- медіа запити `hover`, `pointer`, `any-hover`, `any-pointer`.
+
+<details><summary>Games</summary>
 
 ![Flexbox Froggy](./task_responsive_web_design/game_flex.PNG)
 
+![Grid Garden](./task_responsive_web_design/game_grid.PNG)
+
 </details>
+
+[Гайд по грідам](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
+
+<details><summary>WIP</summary>
 
 ## 5. HTML & CSS Practice
 
