@@ -1,6 +1,6 @@
 # kottans-frontend
 
-[Загальна інфо про курс](https://github.com/kottans/frontend/blob/2022_UA/README.md) | [Зміст курсу](https://github.com/kottans/frontend/blob/2022_UA/contents.md) | [FAQ](https://github.com/kottans/frontend/blob/2022_UA/faq.md) | [markdown](https://help.github.com/categories/writing-on-github/)
+[Інфо про курс](https://github.com/kottans/frontend/blob/2022_UA/README.md) | [Зміст курсу](https://github.com/kottans/frontend/blob/2022_UA/contents.md) | [FAQ](https://github.com/kottans/frontend/blob/2022_UA/faq.md) | [markdown](https://help.github.com/categories/writing-on-github/) | [Typical mistakes](http://kottans.org/documentation/docs/doc/code-review/#typical-mistakes) | [HTML validator](https://validator.w3.org/#validate_by_input) | [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ## 0. Git Basics
 
@@ -133,29 +133,66 @@
 
 [Гайд по грідам](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
 
-<details><summary>WIP</summary>
+## [6. JavaScript Basics](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-basics.md)
 
-## 5. HTML & CSS Practice
+6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)
 
-[Вимоги](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md) | [nav section rules](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) | [checkbox video](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev)
+<details><summary>Week 4</summary>
 
-## 6. JavaScript Basics
+![coursera week 4](./task_html_css_intro/coursera-htmlcss01.PNG)
 
-6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)  
-6.2
+</details>
 
-- ~~[Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)~~
-- ~~[ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17~~
-- [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures)
-- [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting)
-- [Functional Programming ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
-- [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11
+6.2 [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/), [ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17, [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures), [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting), [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming), [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11
 
 <details><summary>Freecodecamp JS</summary>
 
 ![Basic JavaScript](./task_js_basics/freecodecamp_js_01.PNG)  
 ![ES6 Challenges](./task_js_basics/freecodecamp_js_02.PNG)
+![Basic Data Structures](./task_js_basics/freecodecamp_js_03.PNG)  
+![Basic Algorithm Scripting](./task_js_basics/freecodecamp_js_04.PNG)  
+![Functional Programming](./task_js_basics/freecodecamp_js_05.PNG)
+![Algorithm Scripting Challenges](./task_js_basics/freecodecamp_js_06.PNG)
 
 </details>
+
+[Destructuring in JavaScript](https://www.freecodecamp.org/news/how-to-use-destructuring-in-javascript-to-write-cleaner-more-powerful-code-9d1b38794050/)
+
+<details><summary>WIP</summary>
+
+## [5. HTML & CSS Practice](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md)
+
+[Demo](https://nvklap.github.io/hooli-style-popup/) | [Code base](https://github.com/nvklap/hooli-style-popup) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/267)
+
+<details><summary>Helpful Links</summary>
+
+[Вимоги](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md) | [nav section rules](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) | [checkbox video](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev) | [Add favicon](https://www.w3.org/2005/10/howto-favicon) | [Svg color on hover](https://css-tricks.com/change-color-of-svg-on-hover/)
+
+</details>
+
+## [7. Document Object Model](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-dom.md)
+
+7.1 [Розділ Document Object Model Manipulation](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/5)  
+7.2 [ Algorithm Scripting Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting) 12 - 18
+7.3 Практичне завдання - Впровадити інтерактивне side-menu без перезавантаження сторінки.  
+**Головна мета** - меню з можливістю завантажувати деякий попередньо визначений HTML-контент, пов'язаний з власним пунктом меню, в контейнер вмісту `<main>`, розташований праворуч.  
+**Цілі**
+
+- комплексна реалізація full page responsive layout (курс Udacity про адаптивний HTML/CSS).
+- ви можете зберігати дані в масиві об’єктів
+- ви можете використовувати innerHTML, insertAdjacentHTML, append, createElement, addEventListener,
+- будуть корисними методи масиву як Array#filter, Array#sort, Array#find, etc.
+- і звичайно - методи DOM.
+
+## [8. Building a Tiny JS World](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-pre-oop.md)
+
+[A Tiny JS World](https://github.com/OleksiyRudenko/a-tiny-JS-world)
+
+## [9. Object oriented JS](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop.md)
+
+7.1 [ООП 1 частина - Класи](https://www.youtube.com/watch?v=jgCiWIdUZ-s&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=40)  
+7.2 [ООП 2 частина - Прототипи](https://www.youtube.com/watch?v=e-3GS5-rak8&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=46)  
+7.3 [Практика - Classic Frogger Game](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop-frogger.md)  
+7.4 [Сodewars](https://www.codewars.com/) - зареєструйтеся, приєднайтеся до клану Kottans і досягніть 7 kyu.
 
 </details>
