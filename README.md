@@ -133,20 +133,33 @@
 
 [Гайд по грідам](https://css-tricks.com/snippets/css/complete-guide-grid/#top-of-site)
 
-## [6. JavaScript Basics](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-basics.md)
+## 5. HTML & CSS Practice
 
-6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)
+Мабуть єдине практичне завдання в виконанні якого я була більш менш впевнена, бо тут лише CSS&HTML. Вирішила зробити розмітку для менюшки з айконами на грідах, бо з ними ніколи не практиковалась, а тут така нагода. Трохи намучалась з тим, щоб самі іконки нормально відображались - зі збереженням потрібних пропорцій, та без обрізання. Що було складно оскільки самі іконки були різного розміру. Але з цим справилась. Також стало зрозуміло коли треба використовувати `alt` для зображень-посилань, а коли ні.  
+І це перший раз, коли мій код рев'юіли. Цікавий та корисний досвід!
 
-<details><summary>Week 4</summary>
+[Demo](https://nvklap.github.io/hooli-style-popup/) | [Code base](https://github.com/nvklap/hooli-style-popup)
 
-![coursera week 4](./task_html_css_intro/coursera-htmlcss01.PNG)
+<details><summary>Helpful Links</summary>
+
+[nav section rules](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) | [checkbox video](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev) | [Add favicon](https://www.w3.org/2005/10/howto-favicon) | [Svg color on hover](https://css-tricks.com/change-color-of-svg-on-hover/) | [Stop Targeting Tags in CSS](https://frontstuff.io/you-need-to-stop-targeting-tags-in-css)
 
 </details>
 
-6.2 [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/), [ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17, [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures), [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting), [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming), [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11
+## [6. JavaScript Basics](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-basics.md)
 
-<details><summary>Freecodecamp JS</summary>
+6.1 [Intro to JS](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/4)  
+6.2 [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/), [ES6 Challenges ](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6) перші 17, [Basic Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-data-structures), [Basic Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting), [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming), [Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) перші 11  
+Вправи на кодкемпі більше сподобались ніж лекції на курсері. По-перше, своєю актуальністю та змогою тут же на місці попрактикуватись. По-друге, що є змога скористатись підказкою та подивитись варіанти розв'язання задачі. Це було корисно, бо там де я використовувала loops можна скористатись різними методами масивів та скоротити свій код вдвічі. Завдання, які були до розділу [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#intermediate-algorithm-scripting) давалися більш менш легко, на деякі з них просто було треба витратити більше часу та зусиль, а ось деякі завдання в цьому розділі змусили відчути себе безмежно тупою. І скільки б часу на них не витрачала - з розв'язанням була просто біда, тому доводилось користуватися підказками. Трошки опустилися руки :/ Але після цього шла тренуватися на codewars та читати mdn. З цікавого:
 
+- підгледіти наявність певної властивості у об'єкті можна не тільки за допомоги метода `hasOwnProperty()`. Існує і таке `'Alan' in users`;
+- `NaN` не дорівнює нічому, навіть самому собі;
+- `spread` оператор дозволяє дуже легко і елегантно скопіювати всі елементи масиву: `let newArr = [...arr]`;
+- все про деструктурізацію - [Destructuring in JavaScript](https://www.freecodecamp.org/news/how-to-use-destructuring-in-javascript-to-write-cleaner-more-powerful-code-9d1b38794050/).
+
+<details><summary>Screenshots</summary>
+
+![coursera week 4](./task_html_css_intro/coursera-htmlcss01.PNG)
 ![Basic JavaScript](./task_js_basics/freecodecamp_js_01.PNG)  
 ![ES6 Challenges](./task_js_basics/freecodecamp_js_02.PNG)
 ![Basic Data Structures](./task_js_basics/freecodecamp_js_03.PNG)  
@@ -156,19 +169,7 @@
 
 </details>
 
-[Destructuring in JavaScript](https://www.freecodecamp.org/news/how-to-use-destructuring-in-javascript-to-write-cleaner-more-powerful-code-9d1b38794050/)
-
 <details><summary>WIP</summary>
-
-## [5. HTML & CSS Practice](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md)
-
-[Demo](https://nvklap.github.io/hooli-style-popup/) | [Code base](https://github.com/nvklap/hooli-style-popup) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/267)
-
-<details><summary>Helpful Links</summary>
-
-[Вимоги](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-popup.md) | [nav section rules](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) | [checkbox video](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev) | [Add favicon](https://www.w3.org/2005/10/howto-favicon) | [Svg color on hover](https://css-tricks.com/change-color-of-svg-on-hover/)
-
-</details>
 
 ## [7. Document Object Model](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-dom.md)
 
