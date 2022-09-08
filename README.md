@@ -138,7 +138,7 @@
 Мабуть єдине практичне завдання в виконанні якого я була більш-менш впевнена, бо тут лише CSS&HTML. Вирішила зробити розмітку для менюшки з айконами на грідах, бо з ними ніколи не практиковалась, а тут така нагода. Трохи намучалась з тим, щоб самі іконки нормально відображались - зі збереженням потрібних пропорцій, та без обрізання. Що було складно оскільки самі іконки були різного розміру. Але з цим справилась. Також стало зрозуміло коли треба використовувати `alt` для зображень-посилань, а коли ні.  
 І це перший раз, коли мій код рев'юіли :D Цікавий та корисний досвід!
 
-[Demo](https://nvklap.github.io/hooli-style-popup/) | [Code base](https://github.com/nvklap/hooli-style-popup)
+[Demo](https://nvklap.github.io/hooli-style-popup/) | [Code base](https://github.com/nvklap/hooli-style-popup) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/267)
 
 <details><summary>Helpful Links</summary>
 
@@ -169,25 +169,33 @@
 
 </details>
 
-<details><summary>WIP</summary>
-
 ## [7. Document Object Model](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-dom.md)
 
 7.1 [Розділ Document Object Model Manipulation](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/week/5)  
 7.2 [ Algorithm Scripting Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting) 12 - 18
-7.3 Практичне завдання - Впровадити інтерактивне side-menu без перезавантаження сторінки.  
-**Головна мета** - меню з можливістю завантажувати деякий попередньо визначений HTML-контент, пов'язаний з власним пунктом меню, в контейнер вмісту `<main>`, розташований праворуч.  
-**Цілі**
 
-- комплексна реалізація full page responsive layout (курс Udacity про адаптивний HTML/CSS).
-- ви можете зберігати дані в масиві об’єктів
-- ви можете використовувати innerHTML, insertAdjacentHTML, append, createElement, addEventListener,
-- будуть корисними методи масиву як Array#filter, Array#sort, Array#find, etc.
-- і звичайно - методи DOM.
+З алгоритмами знов були проблеми, довго давались, але кількість самостійного розв'язання без підглядання у хінти збільшилась. І вже частіше використовую потрібні методи, а не костилі у вигляді `for loops`. З DOM було набагато легше, бо це моя найулюбленіша тема JS. З плейліста [Бреда Траверсі](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) отримала більше корисного, ніж від курсу на курсері:
+
+- нові елементи на сторінку можна добавляти і через `innerHTML` (тут потрібен рядок з розміткою), і через метод `append()`;
+- краще створити елементи, присвоїти їм потрібні атрибути, задати потрібну структуру, і вставити все це за один раз в сторінку, ніж вставляти кожний елемент окремо;
+- [event delegation](https://javascript.info/event-delegation).
+
+[Demo](https://nvklap.github.io/dom-prjct/) | [Code base](https://github.com/nvklap/dom-prjct)
+
+<details><summary>Screenshots</summary>
+
+![coursera week 5 DOM](./task_js_dom/coursera-js-w5-DOM.PNG)
+![Algorithm Scripting Challenges](./task_js_dom/freecodecamp_js_01.PNG)
+
+</details>
 
 ## [8. Building a Tiny JS World](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-pre-oop.md)
 
-[A Tiny JS World](https://github.com/OleksiyRudenko/a-tiny-JS-world)
+Найбільшою складністю для мене стало саме виведення значень об'єкта без використання рядків. Довго розмірковувала над тим, як в цьому можуть допомогти методи `map` та `join`. Стало зрозуміло, чому методи об'єкта (`keys`, `values`, `enteries`) для цього завдання виявилися непотрібними - вони не гарантують порядку виведення ключів та значень. Вирішила проблему створивши масив з ключами об'єктів і вже до нього примінила методи `map` та `join`.
+
+[Demo](https://nvklap.github.io/a-tiny-JS-world/) | [Code base](https://github.com/nvklap/a-tiny-JS-world) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/434)
+
+<details><summary>WIP</summary>
 
 ## [9. Object oriented JS](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop.md)
 
