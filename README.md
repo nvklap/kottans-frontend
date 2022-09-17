@@ -180,7 +180,7 @@
 - краще створити елементи, присвоїти їм потрібні атрибути, задати потрібну структуру, і вставити все це за один раз в сторінку, ніж вставляти кожний елемент окремо;
 - [event delegation](https://javascript.info/event-delegation).
 
-[Demo](https://nvklap.github.io/dom-prjct/) | [Code base](https://github.com/nvklap/dom-prjct)
+[Demo](https://nvklap.github.io/dom-prjct/) | [Code base](https://github.com/nvklap/dom-prjct) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/389)
 
 <details><summary>Screenshots</summary>
 
@@ -189,7 +189,7 @@
 
 </details>
 
-## [8. Building a Tiny JS World](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-pre-oop.md)
+## 8. Building a Tiny JS World
 
 Найбільшою складністю для мене стало саме виведення значень об'єкта без використання рядків. Довго розмірковувала над тим, як в цьому можуть допомогти методи `map` та `join`. Стало зрозуміло, чому методи об'єкта (`keys`, `values`, `enteries`) для цього завдання виявилися непотрібними - вони не гарантують порядку виведення ключів та значень. Вирішила проблему створивши масив з ключами об'єктів і вже до нього примінила методи `map` та `join`.
 
@@ -199,9 +199,9 @@
 
 ## [9. Object oriented JS](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop.md)
 
-7.1 [ООП 1 частина - Класи](https://www.youtube.com/watch?v=jgCiWIdUZ-s&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=40)  
-7.2 [ООП 2 частина - Прототипи](https://www.youtube.com/watch?v=e-3GS5-rak8&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=46)  
-7.3 [Практика - Classic Frogger Game](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop-frogger.md)  
-7.4 [Сodewars](https://www.codewars.com/) - зареєструйтеся, приєднайтеся до клану Kottans і досягніть 7 kyu.
+9.1 [ООП 1 частина - Класи](https://www.youtube.com/watch?v=jgCiWIdUZ-s&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=40)  
+9.2 [ООП 2 частина - Прототипи](https://www.youtube.com/watch?v=e-3GS5-rak8&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=46)  
+9.3 [Практика - Classic Frogger Game](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop-frogger.md)  
+9.4 [Сodewars](https://www.codewars.com/) - зареєструйтеся, приєднайтеся до клану Kottans і досягніть 7 kyu.
 
 </details>
