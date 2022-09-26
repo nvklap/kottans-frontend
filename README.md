@@ -211,25 +211,6 @@
 
 </details>
 
-<details><summary>WIP</summary>
+## 10. OOP exercise
 
-## [10. OOP exercise](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-post-oop.md)
-
-На цей раз вам не потрібен форк, працюйте з наявним репо. Git зберігає історію для вас.  
-Ці [матеріали](https://github.com/OleksiyRudenko/a-tiny-JS-world/blob/master/README.md#learn-on-your-own) будуть корисні.
-
-### Найпоширеніші проблеми для вирішення
-
-- [ ] Якщо класи одного рівня (peer classes/siblings) мають такі самі властивості, то вони повинні бути узагальнені в їхньому базовому (батьківському) класі
-- [ ] Класи для видів, які не мають рук за природним задумом - не мають рук або будь-якої еквівалентної властивості
-      і не успадковують такі властивості від жодного з базових/батьківських класів
-- [ ] Властивості класу, які є частинами рядка презентації об’єкта, перераховуються/вказуються явно
-      (i.e. `Object` методи `values`, `keys`, `entires` або такі конструкції `for (key in obj)` не використовуються)
-- [ ] Конструктор рядків презентації об’єкта є методом класу, а не незалежною функцією
-- [ ] Конструктор класу визначається іменованими параметрами
-- [ ] Клас не призначає і не змінює властивість, що належить будь-якому іншому класу (визначена в будь-якому іншому класі)
-- [ ] Дочірній клас не повинен безпосередньо використовувати успадковану властивість для створення рядка презентації об’єкта
-- [ ] Код є [OOP](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/), SOLID ([eng](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa), [rus](https://medium.com/webbdev/solid-4ffc018077da)) та [DRY](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161) compliant
-- [ ] Застряг або щось не зовсім зрозуміло? Задайте питання
-
-</details>
+[Demo](https://nvklap.github.io/a-tiny-JS-world/) | [Code base](https://github.com/nvklap/a-tiny-JS-world)
