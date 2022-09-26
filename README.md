@@ -195,13 +195,41 @@
 
 [Demo](https://nvklap.github.io/a-tiny-JS-world/) | [Code base](https://github.com/nvklap/a-tiny-JS-world) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/434)
 
+## 9. Object oriented JS
+
+9.1 [ООП - Класи](https://www.youtube.com/watch?v=jgCiWIdUZ-s&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=40) & [ООП - Прототипи](https://www.youtube.com/watch?v=e-3GS5-rak8&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=46)
+
+- `[[Prototype]]` містить посилання на інший об'єкт, чи має значення `null`;
+- для наслідування властивостей - `Parent.call(propertyNames)`;
+- для наслідування методів - `Child.prototype = Object.create(Parent.prototype)`;
+
+[Demo](https://nvklap.github.io/frontend-nanodegree-arcade-game/) | [Code base](https://github.com/nvklap/frontend-nanodegree-arcade-game) | [PR](https://github.com/kottans/frontend-2022-homeworks/pull/498)
+
+<details><summary>Screenshots</summary>
+
+![Codewars](./task_js_oop/codewars.PNG)
+
+</details>
+
 <details><summary>WIP</summary>
 
-## [9. Object oriented JS](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop.md)
+## [10. OOP exercise](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-post-oop.md)
 
-9.1 [ООП 1 частина - Класи](https://www.youtube.com/watch?v=jgCiWIdUZ-s&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=40)  
-9.2 [ООП 2 частина - Прототипи](https://www.youtube.com/watch?v=e-3GS5-rak8&list=PLM7wFzahDYnEltE-aVGhRHYPwIJn0Xquu&index=46)  
-9.3 [Практика - Classic Frogger Game](https://github.com/kottans/frontend/blob/2022_UA/tasks/js-oop-frogger.md)  
-9.4 [Сodewars](https://www.codewars.com/) - зареєструйтеся, приєднайтеся до клану Kottans і досягніть 7 kyu.
+На цей раз вам не потрібен форк, працюйте з наявним репо. Git зберігає історію для вас.  
+Ці [матеріали](https://github.com/OleksiyRudenko/a-tiny-JS-world/blob/master/README.md#learn-on-your-own) будуть корисні.
+
+### Найпоширеніші проблеми для вирішення
+
+- [ ] Якщо класи одного рівня (peer classes/siblings) мають такі самі властивості, то вони повинні бути узагальнені в їхньому базовому (батьківському) класі
+- [ ] Класи для видів, які не мають рук за природним задумом - не мають рук або будь-якої еквівалентної властивості
+      і не успадковують такі властивості від жодного з базових/батьківських класів
+- [ ] Властивості класу, які є частинами рядка презентації об’єкта, перераховуються/вказуються явно
+      (i.e. `Object` методи `values`, `keys`, `entires` або такі конструкції `for (key in obj)` не використовуються)
+- [ ] Конструктор рядків презентації об’єкта є методом класу, а не незалежною функцією
+- [ ] Конструктор класу визначається іменованими параметрами
+- [ ] Клас не призначає і не змінює властивість, що належить будь-якому іншому класу (визначена в будь-якому іншому класі)
+- [ ] Дочірній клас не повинен безпосередньо використовувати успадковану властивість для створення рядка презентації об’єкта
+- [ ] Код є [OOP](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/), SOLID ([eng](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa), [rus](https://medium.com/webbdev/solid-4ffc018077da)) та [DRY](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161) compliant
+- [ ] Застряг або щось не зовсім зрозуміло? Задайте питання
 
 </details>
